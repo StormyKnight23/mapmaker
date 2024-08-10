@@ -1,0 +1,14 @@
+Package: mapmaker
+Title: Map Maker
+Description:  The `mapmaker` package provides tools for creating and merging interactive maps. The package includes functions for preparing spatial data, creating interactive maps, and merging spatial objects with additional attribute data.
+Video: https://youtu.be/tMYHrPMaOL8
+Version: 1.0
+Authors@R: person("Ethan", "Chan", email = "ej.chan2018@gmail.com", role = c("aut", "cre", "cph"))
+License: MIT + file LICENSE
+Requires:
+    sf
+    ggplot2
+    ggiraph
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
